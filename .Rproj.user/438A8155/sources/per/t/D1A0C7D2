@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1585069198231.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1477691557",
+    "id" : "D1A0C7D2",
+    "lastKnownWriteTime" : 1585824056,
+    "last_content_update" : 1585824056735,
+    "path" : "D:/manchester/text mining/coursework2_md/witcher3.Rmd",
+    "project_path" : "witcher3.Rmd",
+    "properties" : {
+        "cursorPosition" : "961,0",
+        "scrollLine" : "929",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

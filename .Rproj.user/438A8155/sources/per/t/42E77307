@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1585068558004.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "14569040",
+    "id" : "42E77307",
+    "lastKnownWriteTime" : 1584837445,
+    "last_content_update" : 1585130958263,
+    "path" : "D:/manchester/text mining/week5/SMALR/SMALR/SMALR.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "869,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

@@ -1,0 +1,4 @@
+"0","library(knitr)    # For knitting document and include_graphics function"
+"0","library(png)   "
+"0","# For grabbing the dimensions of png files"
+"0","include_graphics(""topic.png"")"

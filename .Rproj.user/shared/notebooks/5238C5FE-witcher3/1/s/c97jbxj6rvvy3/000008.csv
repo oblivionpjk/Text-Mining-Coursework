@@ -1,0 +1,38 @@
+"0","library(syuzhet)"
+"0","library(plotly)"
+"0","library(tm)"
+"0","library(wordcloud)"
+"0",""
+"0","#import your dataset to analyse, "
+"0","#ensure it is in the same directory as your code, "
+"0","#otherwise you need to add the path"
+"0","  "
+"0","  tweets <- read.csv(""witcher3_tw_cn.csv"")"
+"0","  clean_tweets = tweets$x"
+"0","  clean_tweets = tolower(clean_tweets)"
+"0","  "
+"0","  emotions <- get_nrc_sentiment(clean_tweets)"
+"0","  emo_bar = colSums(emotions)"
+"0","  emo_sum = data.frame(count=emo_bar, emotion=names(emo_bar))"
+"0","  emo_sum$emotion = factor(emo_sum$emotion, levels=emo_sum$emotion[order(emo_sum$count, decreasing = TRUE)])"
+"0","  "
+"0","  emo_sum <- emo_sum[1:8,]"
+"0","  emo_sum$percent<-(emo_sum$count/sum(emo_sum$count))*100"
+"0","  "
+"0","   #Visualize the emotions from NRC sentiments"
+"0","plot_ly(emo_sum, x=~emotion, y=~percent, type=""bar"", color=~emotion) %>%"
+"0","layout(xaxis=list(title=""""),  yaxis = list(title = ""Emotion count""),"
+"0","showlegend=FALSE,title=""Distribution of emotion categories"") %>%"
+"0","layout(yaxis = list(ticksuffix = ""%""))"
+"2","n too large, allowed maximum for palette Set2 is 8
+Returning the palette you asked for with that many colors
+"
+"2","n too large, allowed maximum for palette Set2 is 8
+Returning the palette you asked for with that many colors
+"
+"2","n too large, allowed maximum for palette Set2 is 8
+Returning the palette you asked for with that many colors
+"
+"2","n too large, allowed maximum for palette Set2 is 8
+Returning the palette you asked for with that many colors
+"

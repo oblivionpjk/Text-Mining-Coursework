@@ -1,0 +1,7 @@
+"0",""
+"0","# for knitting the document and enabling the include_graphics function"
+"0","library(knitr)    "
+"0","library(png)"
+"0",""
+"0","# for determining the dimensions of PNG files"
+"0","include_graphics(""wordcloud_tw.png"")"
